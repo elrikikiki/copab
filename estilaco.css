@@ -31,15 +31,15 @@ HTML
 <video autoplay muted loop plays-inline class="back-video">
             <source src="./images/videitoo.mp4" type="video/mp4">
           </video>
-          CSS
- .back-video {
+          CSS*/
+/*  .back-video {
   position: absolute;
   width: 100%;
   right: 40;
   left: 0;
-  bottom: 1;
+  bottom: -1;
   z-index: -1;
-} */
+}  */
 .imagen1InicioCarrusel {
   height: 100%;
   background:linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6)), url(https://www.idento.es/wp-content/uploads/2021/04/que-hace-una-agencia-de-marketing-digital.jpg);
@@ -71,6 +71,16 @@ HTML
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
+}
+.imgServicios1 {
+  height: 100%;
+  background:linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), 
+  url(https://images.unsplash.com/photo-1664892057510-20de50cf7e92?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  
 }
 .bgInicioImg {
   background:linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.4)), url(./images/bg-ciudad.jpg);
