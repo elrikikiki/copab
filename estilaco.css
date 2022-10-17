@@ -42,7 +42,7 @@ HTML
 }  */
 .imagen1InicioCarrusel {
   height: 100%;
-  background:linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6)), url(https://www.idento.es/wp-content/uploads/2021/04/que-hace-una-agencia-de-marketing-digital.jpg);
+  background:linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6)), url("https://www.idento.es/wp-content/uploads/2021/04/que-hace-una-agencia-de-marketing-digital.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -50,7 +50,7 @@ HTML
 }
 .imgPrueba {
   height: 100%;
-  background:linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6)), url(https://pngimg.com/uploads/pokemon/pokemon_PNG148.png);
+  background:linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6)), url("https://pngimg.com/uploads/pokemon/pokemon_PNG148.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -74,7 +74,7 @@ HTML
 }
 .imgContacto1 {
   height: 100%;
-  background:linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6)), url(./images/iglesia.jpg);
+  background:linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6)), url("./images/iglesia.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
