@@ -26,6 +26,9 @@
 background-image: linear-gradient(0deg, #D9AFD9 0%, #97D9E1 100%);
 
 }
+.bgImagenIOS {
+  background-image:linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6)), url('./images/kevin-kruger-IgpMkNfsfys-unsplash.jpg');
+}
 /*ACÁ TENES UN BACKGROUND VIDEO LISTO PARA USAR 
 HTML
 <video autoplay muted loop plays-inline class="back-video">
@@ -41,20 +44,15 @@ HTML
   z-index: -1;
 }  */
 .imagen1InicioCarrusel {
-  height: 40vh;
+  height: 100%;
   background:linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6)), url("https://www.idento.es/wp-content/uploads/2021/04/que-hace-una-agencia-de-marketing-digital.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  background-attachment: fixed;
+  
 }
 .imgPrueba {
-  height: 100%;
-  background:linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6)), url("https://pngimg.com/uploads/pokemon/pokemon_PNG148.png");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  background-attachment: fixed;
+  background-image:linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6)), url("https://pngimg.com/uploads/pokemon/pokemon_PNG148.png");
 }
 .imagen2InicioCarrusel {
   height: 100%;
