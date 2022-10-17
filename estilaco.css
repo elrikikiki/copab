@@ -48,6 +48,12 @@ HTML
   background-size: cover;
   background-attachment: fixed;
 }
+.imgPrueba {
+  height: 60rem;
+  width: 80rem;
+  background-position: center;
+  background-image: url(./images/windows-NIAwQT3mB98-unsplash.jpg);
+}
 .imagen2InicioCarrusel {
   height: 100%;
   background:linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6)), url(http://eedarcom.com/website/wp-content/uploads/2018/09/empresa1.jpg);
